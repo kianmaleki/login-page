@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    background-image: url(images/pxfuel.jpg);
+    background-size: cover;
+}
+
+.title {
+    text-align: center;
+    font-size: calc(3vw + 30px);
+    color: #ACE5FF;
+    text-shadow: 0 0 5px #3B687E, 0 0 10px #3B687E, 0 0 50px #3B687E, 0 0 100px #3B687E;
+}
+
+.login-center {
+    background-color: #ACE5FF;
+    border-radius: 10%;
+    max-width: 20rem;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    box-shadow: 0 0 5px 0.5px #ACE5FF;
+}
+
+.login-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.email input,
+.password input {
+    width: 15rem;
+    padding: 0.5rem;
+    margin: 1rem;
+    text-align: center;
+    border: none;
+    border-bottom: 0.5px solid;
+    background: none;
+}
+
+.submite input {
+    padding: 0.75rem;
+    margin: 1.5rem;
+    background-color: #3B687E;
+    border: none;
+    border-radius: 15%;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.submite input:hover {
+    box-shadow: 0 0 5px 0.5px #3B687E;
+    transition: 0.45s;
+    transform: scale(1.2);
+    font-weight: bold;
+}
+
+.forget a,
+.have-account a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.forget,
+.have-account {
+    font-size: 15px;
+    padding: 5px;
+}
